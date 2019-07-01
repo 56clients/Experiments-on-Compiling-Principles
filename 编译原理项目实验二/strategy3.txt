@@ -1,0 +1,2 @@
+stategy T3;
+if (cur = 1) then choose 1 else choose enemypre(cur-1) end;

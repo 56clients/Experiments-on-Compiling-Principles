@@ -1,0 +1,2 @@
+stategy T1;
+choose 1;

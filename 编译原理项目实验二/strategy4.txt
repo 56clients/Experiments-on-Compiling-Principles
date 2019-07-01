@@ -1,0 +1,5 @@
+stategy T4;
+var i;
+if (cur = 1) then choose 1 end;
+i := random(2);
+if(i = 2) then choose 0 else choose enemypre(cur-1) end;

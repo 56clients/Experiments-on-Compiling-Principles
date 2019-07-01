@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BitWar:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BitWar_jar</output-path>
+    <root id="archive" name="BitWar.jar">
+      <element id="module-output" name="BitWar" />
+    </root>
+  </artifact>
+</component>

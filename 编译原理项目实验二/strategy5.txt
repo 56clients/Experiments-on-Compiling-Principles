@@ -1,0 +1,4 @@
+stategy T5;
+if(cur = 1) then choose 1 end;
+if( enemypre(cur-1) = 0) then choose 0 end;
+if(mypre(cur-1) = 1) then choose 1 else choose 0 end;

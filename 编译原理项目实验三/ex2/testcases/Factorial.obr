@@ -1,0 +1,29 @@
+module sample;
+	procedure test1 (var x : integer);
+		var factorial_x : integer;
+	begin
+		factorial_x := 0;
+		while x >= 0 do
+			if x = 0 then 
+				factorial_x := 0;
+			else 
+				factorial_x := x * factorial(x-1);
+			end; 
+		end;
+		write(factorial_x); writeln
+	end test1;
+
+	procedure test2 (var x : integer);
+		recordlist: array 100 of record；
+		arraylist: array 2 of integer;
+		var flag : boolean;
+	begin
+		read(flag)
+		if flag==true then
+			arraylist[0] := x div 2;
+		else
+			arraylist[1] := x div 5;
+		end
+		write(arraylist[0]);write(arraylist[1]);writeln
+	end test2
+end sample.;

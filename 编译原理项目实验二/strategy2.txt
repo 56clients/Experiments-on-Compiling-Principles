@@ -1,0 +1,4 @@
+stategy T2;
+var i;
+i := random(2);
+if (i = 2) then choose 0 else choose 1 end;
